@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: peru;">
+    <h3 style="text-align: center;">Forms in HTML</h3>
+    <form action="/action_page.php" method="get" target="_blank" autocomplete="on">
+        <label for="fname">First Name:</label><br>
+         <input type="text" id="fname" name="fname"> <br>
+
+         <label for="lname">Last Name:</label><br>
+         <input type="text" id="lname" name="lname"> <br>
+
+        <input type="submit" value="submit">
+       
+
+    </form>
+
+    <hr>
+
+    <label for="cars">Choose a Car</label>
+<select name="cars" id="cars"  >
+    <option value="Volvo">Volvo</option>
+    <option value="Mercedes" selected>Mercedes</option>
+    <option value="Ford">Ford</option>
+    <option value="Toyota">Toyota</option>
+   
+
+</select><br>
+
+<hr>
+
+<textarea name="kibaki" id="kibaki" cols="30" rows="10">President Mwai Kibaki was a great economist</textarea>
+ <br>
+ 
+ <button type="button"
+ onclick="alert('Welcome to Modcom Institute')"
+ >Click Here</button> <br>
+<hr>
+ <form action="" method="get">
+
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" placeholder="Enter your username"><br>
+
+    <label for="pwd">Password</label><br>
+    <input type="password" id="pwd" name="pwd" placeholder="Enter your password" ><br><br>
+
+    <input type="submit" value="submit" style="border-radius: 10px;">
+    <input type="reset" >
+ </form>
+
+ <br><br>
+
+ <form action="">
+     <label for="favcolor">Choose your favouite color</label>
+     <input type="color" name="favcolor" id="favcolor">
+ </form>
+</body>
+</html>
